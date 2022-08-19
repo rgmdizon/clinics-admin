@@ -1,0 +1,10 @@
+{
+  "allocationsAdjustment": {
+    "moderna": 0,
+    "astrazeneca": 0
+  },
+  "allocationsBooked": {
+    "moderna": 0,
+    "astrazeneca": 0
+  }
+}

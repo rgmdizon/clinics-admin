@@ -1,0 +1,23 @@
+@import "../../../../static/styles/variables";
+@import "../../../../static/styles/animations";
+
+.screening-details {
+  &__details {
+    border-right: 0.063rem solid $gray;
+  }
+
+  &__personal-details {
+    position: sticky;
+    top: 4.375rem;
+  }
+
+  @media (min-width: $mobile) and (max-width: $tablet) {
+    &__details {
+      border-right: 0rem solid $gray;
+    }
+  }
+}
+
+.loading-container {
+  height: 90vh;
+}

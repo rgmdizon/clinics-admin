@@ -1,0 +1,39 @@
+{
+  "vaccinee": [
+    "pregnantOrBreastfeeding",
+    "hasChronicHealthConditions",
+    "hasMaintenance",
+    "hasHypertensionWithOrganDamage",
+    "hasOngoingSymptoms",
+    "exposedToCovidRecently",
+    "underGoingCovidTreatment",
+    "recentlyReceivedCovidVaccine",
+    "recentlyReceivedAntibodies",
+    "hasMedicalClearance",
+    "alreadyReceivedBooster",
+    "hasThreeMonthsPassed",
+    "hasSevereAllergic",
+    "specifyComorbidity",
+    "acknowledgement"
+  ],
+  "vaccination": [
+    "firstName",
+    "middleName",
+    "lastName",
+    "suffix",
+    "email",
+    "mobileNumber",
+    "birthday",
+    "sex",
+    "priorityCategory",
+    "address",
+    "guardianFirstName",
+    "guardianMiddleName",
+    "guardianLastName",
+    "guardianBirthday",
+    "comorbidity",
+    "specifyComorbidity",
+    "hasAllergies",
+    "acknowledgement"
+  ]
+}

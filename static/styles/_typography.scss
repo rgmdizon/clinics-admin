@@ -1,0 +1,78 @@
+// Resizes headers
+
+@for $i from 1 through 6 {
+  h#{$i} {
+    font-weight: 700;
+    line-height: 1;
+    margin: 1rem 0;
+    margin-top: 2.5rem;
+    color: $dark;
+  }
+}
+
+h1 {
+  font-size: $size-1;
+  color: $dark;
+}
+
+h2 {
+  font-size: $size-2;
+  color: $dark;
+}
+
+h3 {
+  font-size: $size-3;
+  color: $dark;
+}
+
+h4 {
+  font-size: $size-4;
+  color: $dark;
+}
+
+h5 {
+  font-size: $size-5;
+  color: $dark;
+}
+
+h6 {
+  font-size: $size-6;
+  color: $dark;
+}
+
+p {
+  color: $dark;
+}
+
+.fancy-list {
+  clear: both;
+  list-style: none;
+  padding-left: 2%;
+
+  li {
+    display: block;
+    position: relative;
+    counter-increment: inst;
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem !important;
+    padding-bottom: 0px !important;
+
+    &::before {
+      content: counter(inst);
+      background: $warning;
+      color: $white;
+      border-radius: 25px;
+      font-size: 1em;
+      font-weight: 700;
+      font-size: 1.5em;
+      text-align: center;
+      left: -2em;
+      top: -15%;
+      height: 1.35em;
+      width: 1.35em;
+      position: absolute;
+      transition: all 0.2s ease-in-out;
+      z-index: -1;
+    }
+  }
+}

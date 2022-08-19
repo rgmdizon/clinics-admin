@@ -1,0 +1,21 @@
+@import "../../../../../static/styles/variables";
+
+.column {
+  align-items: center !important;
+}
+
+.booking-complete {
+  &__error {
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: $tablet) {
+  .image {
+    width: 40vw !important;
+    margin: 0 auto !important;
+  }
+}

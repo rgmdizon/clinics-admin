@@ -1,0 +1,14 @@
+[
+  {
+    "from": "/epharmacy",
+    "to": "/epharmacy/order"
+  },
+  {
+    "from": "/disclaimer",
+    "to": "/"
+  },
+  {
+    "from": "/disclaimer/",
+    "to": "/"
+  }
+]

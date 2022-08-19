@@ -1,0 +1,26 @@
+[
+  {
+    "bankName": "BPI",
+    "logo": "bpi",
+    "paymentChannel": "bpi_ph",
+    "paymentMethod": "onlinebanktransfer"
+  },
+  {
+    "bankName": "UnionBank",
+    "logo": "unionbank",
+    "paymentChannel": "ubp_online",
+    "paymentMethod": "onlinebanktransfer"
+  },
+  {
+    "bankName": "BDO",
+    "logo": "bdo",
+    "paymentChannel": "br_bdo_ph",
+    "paymentMethod": "onlinebanktransfer"
+  },
+  {
+    "bankName": "GCash",
+    "logo": "gcash",
+    "paymentMethod": "wallet",
+    "paymentChannel": "gc"
+  }
+]

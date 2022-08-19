@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Fever",
+    "image": "fever"
+  },
+  {
+    "title": "Headache",
+    "image": "headache"
+  },
+  {
+    "title": "Sore Throat",
+    "image": "soreThroat"
+  },
+  {
+    "title": "Body Pains and Fatigue",
+    "image": "musclePain"
+  },
+  {
+    "title": "Runny or Stuffy Nose",
+    "image": "sneeze"
+  }
+]

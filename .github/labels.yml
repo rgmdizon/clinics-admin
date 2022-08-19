@@ -1,0 +1,30 @@
+repo:
+  - ./*
+
+"scope: context":
+  - any: ["src/components/Context/**/*"]
+  - any: ["src/context/**/*"]
+
+"scope: elements":
+  - any: ["src/components/Elements/**/*"]
+
+"scope: layout":
+  - any: ["src/components/Layout/**/*"]
+
+"scope: auth":
+  - any: ["src/components/Auth/**/*"]
+
+"scope: epharmacy":
+  - any: ["src/components/Epharmacy/**/*"]
+
+"scope: pages":
+  - any: ["src/pages/**/*"]
+
+"scope: products":
+  - any: ["products/**/*"]
+
+"scope: prices":
+  - any: ["prices/**/*"]
+
+"scope: coupons":
+  - any: ["coupons/**/*"]

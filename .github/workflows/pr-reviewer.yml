@@ -1,0 +1,37 @@
+name: "PR Reviewer"
+on:
+  pull_request:
+    types: [assigned, opened, synchronize, reopened, labeled, unlabeled]
+    branches:
+      - main
+      - develop
+  pull_request_target:
+    types: [opened, reopened]
+
+jobs:
+  check-changelog:
+    name: Check Changelog
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: Zomzog/changelog-checker@v1.1.0
+        with:
+          fileName: CHANGELOG.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  add-labels:
+    name: Add Labels
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/labeler@main
+        name: Labeler
+        with:
+          configuration-path: .github/labels.yml
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+  assign-author:
+    name: Set Assignee
+    runs-on: ubuntu-latest
+    steps:
+      - uses: toshimaru/auto-author-assign@v1.2.0
+        with:
+          repo-token: "${{ secrets.GITHUB_TOKEN }}"

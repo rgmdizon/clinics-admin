@@ -1,0 +1,74 @@
+[
+  {
+    "abbreviation": "Jan",
+    "month": "January",
+    "days": 31,
+    "index": 1
+  },
+  {
+    "abbreviation": "Feb",
+    "month": "February",
+    "days": 29,
+    "index": 2
+  },
+  {
+    "abbreviation": "Mar",
+    "month": "March",
+    "days": 31,
+    "index": 3
+  },
+  {
+    "abbreviation": "Apr",
+    "month": "April",
+    "days": 30,
+    "index": 4
+  },
+  {
+    "abbreviation": "May",
+    "month": "May",
+    "days": 31,
+    "index": 5
+  },
+  {
+    "abbreviation": "Jun",
+    "month": "June",
+    "days": 30,
+    "index": 6
+  },
+  {
+    "abbreviation": "Jul",
+    "month": "July",
+    "days": 31,
+    "index": 7
+  },
+  {
+    "abbreviation": "Aug",
+    "month": "August",
+    "days": 31,
+    "index": 8
+  },
+  {
+    "abbreviation": "Sep",
+    "month": "September",
+    "days": 30,
+    "index": 9
+  },
+  {
+    "abbreviation": "Oct",
+    "month": "October",
+    "days": 31,
+    "index": 10
+  },
+  {
+    "abbreviation": "Nov",
+    "month": "November",
+    "days": 30,
+    "index": 11
+  },
+  {
+    "abbreviation": "Dec",
+    "month": "December",
+    "days": 31,
+    "index": 12
+  }
+]

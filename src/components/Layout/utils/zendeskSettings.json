@@ -1,0 +1,26 @@
+{
+  "color": {
+    "theme": "#0d6d6e"
+  },
+  "launcher": {
+    "chatLabel": {
+      "en-US": "MH Chat"
+    }
+  },
+  "helpCenter": {
+    "suppress": true
+  },
+  "answerBot": {
+    "suppress": true,
+    "avatar": {
+      "url": "https://firebasestorage.googleapis.com/v0/b/medgrocer-28d8f.appspot.com/o/logos%2Fmedgrocer-square.png?alt=media&token=d48e7c61-b9aa-49ad-ac8a-c1de7b04b7c0",
+      "name": {
+        "*": "Mental Health Support"
+      }
+    },
+    "title": {
+      "*": "Mental Health Support"
+    },
+    "contactOnlyAfterQuery": true
+  }
+}

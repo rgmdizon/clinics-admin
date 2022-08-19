@@ -1,0 +1,144 @@
+@import "../../../../static/styles/variables";
+@import "../../../../static/styles/animations";
+
+.logo {
+  @media screen and (min-width: $desktop) {
+    width: 30vw;
+    max-width: 300px;
+  }
+
+  @media screen and (max-width: $tablet) {
+    width: 50vw;
+    max-width: 300px;
+  }
+}
+
+.banner {
+  &__button {
+    width: 50%;
+  }
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &__button {
+    margin-top: 1rem;
+  }
+
+  @media screen and (max-width: $tablet) {
+    width: 100%;
+  }
+
+  @media screen and (min-width: $tablet) {
+    width: 30vw;
+  }
+}
+
+@media screen and (min-width: $tablet) {
+  .card {
+    background-color: #fff;
+    box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1),
+      0 0 0 1px rgba(10, 10, 10, 0.02);
+    color: #4a4a4a;
+    max-width: 100%;
+    position: relative;
+    border-radius: 6px;
+    // margin-top: -3rem;
+
+    &__divider {
+      width: 20%;
+      height: 0.15rem;
+      background-color: $warning;
+    }
+  }
+}
+
+.message {
+  background: transparent;
+
+  &__body {
+    border-color: #cfe1e1;
+    border-width: 0;
+    color: $primary;
+    padding: 1.25em 1.5em;
+
+    // &__step {
+    //   color: red !important;
+    // }
+  }
+}
+
+.process-preview {
+  @extend .card;
+  background-color: $warning;
+  margin: 0 auto;
+  margin-top: 2rem;
+  max-width: 25rem;
+  max-height: 675px;
+  overflow: hidden;
+
+  &__image-container {
+    height: 55vh;
+  }
+
+  &__process-images {
+    opacity: 0;
+  }
+}
+
+.prerelease {
+  @media screen and (max-width: $desktop) {
+    margin-top: -20rem;
+
+    &__title {
+      font-size: $size-3;
+    }
+
+    &__subtitle {
+      font-size: $size-5;
+    }
+  }
+
+  @media screen and (min-width: $desktop) {
+    margin-top: -20rem;
+
+    &__title {
+      font-size: $size-1;
+    }
+
+    &__subtitle {
+      font-size: $size-3;
+    }
+  }
+
+  @media screen and (min-width: $fullhd) {
+    max-width: 40%;
+
+    &__title {
+      font-size: $size-1;
+    }
+
+    &__subtitle {
+      font-size: $size-3;
+    }
+  }
+}
+
+.home__image {
+  display: flex;
+  justify-content: center;
+}
+
+.banner {
+  &__body {
+    max-width: 40rem;
+  }
+}
+
+.home__process-arrow {
+  display: flex;
+  align-items: center;
+}

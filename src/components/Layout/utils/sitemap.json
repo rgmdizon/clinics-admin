@@ -1,0 +1,30 @@
+[
+  {
+    "section": "Get Started",
+    "classnames": "",
+    "links": [
+      {
+        "label": "Register Organization",
+        "url": "verify-email"
+      }
+    ]
+  },
+  {
+    "section": "Learn More",
+    "classnames": "",
+    "links": [
+      {
+        "label": "Terms and Conditions",
+        "url": "terms-and-conditions"
+      },
+      {
+        "label": "Privacy Policy",
+        "url": "privacy-policy"
+      },
+      {
+        "label": "Informed Consent",
+        "url": "informed-consent"
+      }
+    ]
+  }
+]

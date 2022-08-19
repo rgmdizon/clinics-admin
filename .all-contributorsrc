@@ -1,0 +1,46 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+
+      "login": "kimberrypi",
+      "name": "Kim Santos Morano",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/20434382?v=4",
+      "profile": "http://kimberrypi.me",
+      "contributions": [
+        "code",
+        "design",
+        "maintenance"
+]
+}, {
+
+      "login": "jamesabaja",
+      "name": "James Gabriel Abaja",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/15464595?v=4",
+      "profile": "https://github.com/jamesabaja",
+      "contributions": [
+        "code",
+        "maintenance"
+        ]
+},
+      "login": "TiffyYu",
+      "name": "Tiffy Yu",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/52650215?v=4",
+      "profile": "https://github.com/TiffyYu",
+      "contributions": [
+        "code",
+        "design"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "medgrocer.com",
+  "projectOwner": "MedGrocer",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}

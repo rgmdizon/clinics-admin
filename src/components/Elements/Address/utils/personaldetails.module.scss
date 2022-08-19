@@ -1,0 +1,18 @@
+@import "../../../../../static/styles/variables";
+
+.tabs {
+  margin-top: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.scpwd-id__pdf-thumbnail-container {
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+  height: 12.8rem;
+}
+
+.scpwd-id__pdf-thumbnail-image {
+  width: 8rem !important;
+  height: 8rem !important;
+}

@@ -1,0 +1,26 @@
+{
+  "non-covid": [
+    "I have read, understood, and truthfully answered the screening questionnaire",
+    "I have checked and confirmed the brand and type of vaccine(s) I will receive",
+    "I understand my current medical condition, the vaccines to be administered, and their risks",
+    "I fully accept the risks of vaccine administration, including personal risks and likely outcomes",
+    "I  will raise my concerns with the medical staff about my condition, the procedure, and its risks if necessary",
+    "I will indemnify and hold my employer, MedGrocer, and MedGrocer’s partners free from any liabilities that may arise as a consequence of my decision to have these vaccines administered",
+    "I take full responsibility for the proper handling and storage of vaccines if I decide to bring them home (Temperature: 2-8 °C)",
+    "I am authorizing my employer to automatically deduct from my salary the total cost of vaccines I have ordered (if applicable)",
+    "The information I provided is correct and I abide by MedGrocer’s Terms and Conditions",
+    "I allow MedGrocer to analyze my data and contact me regarding health related information and promotions"
+  ],
+  "covid": [
+    "I have read, understood, and truthfully answered the screening questionnaire",
+    "I have checked and confirmed the brand and type of vaccine(s) I will receive",
+    "I understand my current medical condition, the vaccines to be administered, and their risks",
+    "I fully accept the risks of vaccine administration, including personal risks and likely outcomes",
+    "I  will raise my concerns with the medical staff about my condition, the procedure, and its risks if necessary",
+    "I will indemnify and hold my employer, MedGrocer, and MedGrocer’s partners free from any liabilities that may arise as a consequence of my decision to have these vaccines administered",
+    "I take full responsibility for the proper handling and storage of vaccines if I decide to bring them home (Temperature: 2-8 °C)",
+    "I am authorizing my employer to automatically deduct from my salary the total cost of vaccines I have ordered (if applicable)",
+    "The information I provided is correct and I abide by MedGrocer’s Terms and Conditions",
+    "I allow MedGrocer to analyze my data and contact me regarding health related information and promotions"
+  ]
+}

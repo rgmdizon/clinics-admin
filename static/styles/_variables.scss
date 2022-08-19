@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+
+// Initial font variable
+$family-sans-serif: "Lato", sans-serif;
+
+// Initial color variables
+$teal: #0d6d6e; // Teal
+$teal-80: #3d8b8b; // 80% teal
+$teal-60: #6ea9a9; // 60% teal
+$teal-40: #9ec5c5; // 40% teal
+$teal-20: #cfe1e1; // 20% teal
+$teal-10: #e6f0f0; // 10% teal
+$background-light: #edf3f3;
+$light-grey: #f5f5f5;
+$menu-hover: #9ec5c5;
+$section-addon: #6ea7a8;
+$red: #d84544;
+$orange: #ee7423;
+$yellow: #f3b61b;
+$light-yellow: #fadea480;
+$green: #16a57d;
+$light-green: #74b99c;
+$blue: #1c3664;
+$violet: #4b375b;
+$black: #000000;
+$dark-gray: #333;
+$gray: #777;
+$light-gray: #9e9e9e;
+$lighter-gray: #e8e8e8;
+$white: #ffffff;
+$fb-messenger-blue: #00c6ff;
+$fb-blue: #3b5998;
+
+// Initial font sizes
+$size-1: 3rem !default;
+$size-2: 2.5rem !default;
+$size-3: 2rem !default;
+$size-4: 1.5rem !default;
+$size-5: 1.25rem !default;
+$size-6: 1rem !default;
+$size-7: 0.75rem !default;
+$size-8: 0.5rem !default;
+$body-font-size: $size-5;
+
+// Derived variables
+$primary: $teal;
+$light: $teal-10;
+$dark: $dark-gray;
+$warning: $light-yellow;
+$danger: $red;
+$success: $light-green;
+$info: $teal-80;
+$link: $teal-80;
+$secondary: $orange;
+$link-hover: $teal-60;
+$hr-background-color: $teal-20;
+$hr-height: 1px;
+$border: $teal-20;
+$border-hover: $teal;
+$navbar-height: 3.25rem;
+$spacer: 0.5rem;
+
+// Measurements
+$spacer: 1rem;
+$gap: 32px;
+$fullhd: 1408px;
+$desktopplus: 1024px;
+$desktop: 960px+ (2 * $gap);
+$tablet: 769px;
+$mobile: 320px;

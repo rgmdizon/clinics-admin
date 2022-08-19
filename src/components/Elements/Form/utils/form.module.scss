@@ -1,0 +1,74 @@
+@import "../../../../../static/styles/global.scss";
+
+.form-checkbox {
+  &__label {
+    display: block !important;
+    padding-left: 2.2em !important;
+    text-indent: -0.8em !important;
+
+    &::before {
+      margin-top: 0.5rem;
+    }
+
+    &::after {
+      border-color: $white !important;
+    }
+  }
+}
+
+.form {
+  &__radio--label {
+    margin-right: 0.5rem !important;
+
+    &::after {
+      background-color: $primary !important;
+    }
+  }
+}
+
+.form-input {
+  input {
+    appearance: textfield;
+    -moz-appearance: textfield;
+  }
+}
+
+.form-calendar {
+  &__calendar {
+    width: 75% !important;
+    margin: 9px 9px;
+    border-style: solid !important;
+    border-color: $white !important;
+    font-size: $size-6 !important;
+  }
+  &__tile {
+    aspect-ratio: auto 1 / 1;
+    padding: 0px 0px !important;
+    border-style: solid !important;
+    border-color: $white !important;
+    border-width: 9px !important;
+    font-size: $size-6 !important;
+  }
+
+  @media(min-width: ($mobile * 1.5)) and (max-width: $tablet) {
+    &__calendar {
+      margin: 7px 7px;
+      font-size: $size-7 !important;
+    }
+    &__tile {
+      border-width: 7px !important;
+      font-size: $size-7 !important;
+    }
+  }
+
+  @media(min-width:0px) and (max-width: ($mobile * 1.5)) {
+    &__calendar {
+      margin: 3px 3px;
+      font-size: $size-7 !important;
+    }
+    &__tile {
+      border-width: 3px !important;
+      font-size: $size-8 !important;
+    }
+  }
+}

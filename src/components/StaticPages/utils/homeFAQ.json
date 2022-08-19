@@ -1,0 +1,50 @@
+[
+  {
+    "question": "How many dependents can I bring?",
+    "answer": "The number of dependents you are allowed to bring will depend on your organization."
+  },
+  {
+    "question": "If I purchase multiple vaccines, will they all be administered at once?",
+    "answer": "You will be administered multiple vaccines if our medical staff deem it safe to do so. Otherwise, our medical staff will only administer a portion of your vaccines and instruct you to come back on another date to receive your remaining portion."
+  },
+  {
+    "question": "What am I supposed to input in the “Employee ID” field?",
+    "answer": "You must input the employee code or number pre-assigned to you by your organization."
+  },
+  {
+    "question": "What do I need to bring to the venue?",
+    "answer": "<ul><li>You will have to bring either a picture or printed copy of your QR code and a valid ID. </li><li>You will have to bring either a picture or printed copy of your QR code, a valid ID, and a copy of your prescription.</li></ul>"
+  },
+  {
+    "question": "Why are annual recommendations for influenza vaccine composition necessary? Why is the flu vaccine needed every year?",
+    "answer": "There are 2 reasons why the flu vaccine is needed every year: (1) a person’s immunity wanes over time so a shot is needed for maximal protection (2) the flu virus constantly undergoes structural changes, that’s why vaccines are updated based on research on which strains will be common."
+  },
+  {
+    "question": "What are the WHO recommendations for influenza vaccination? What influenza strains should I be protected from?",
+    "answer": "This year, as recommended by WHO, the content of vaccine for 2022 influenza season (southern hemisphere) are the following: <ul><li>Egg-based vaccines: <ul><li>an A/Victoria/2570/2019 (H1N1)pdm09-like virus; </li><li>an A/Darwin/9/2021 (H3N2)-like virus; </li><li>a B/Austria/1359417/2021 (B/Victoria lineage)-like virus; and</li><li>a B/Phuket/3073/2013 (B/Yamagata lineage)-like virus.</li></ul></li>Cell- or recombinant-based vaccines: <li> <ul><li>an A/Wisconsin/588/2019 (H1N1)pdm09-like virus; </li><li>an A/Darwin/6/2021 (H3N2)-like virus;</li><li>a B/Austria/1359417/2021 (B/Victoria lineage)-like virus; and</li><li>a B/Phuket/3073/2013 (B/Yamagata lineage)-like virus.</li></ul></li></ul>"
+  },
+  {
+    "question": "How effective is the vaccine?",
+    "answer": "Influenza vaccination is 40-60% effective in preventing the complications brought about by Influenza or the “flu” such as pneumonia."
+  },
+  {
+    "question": "How long does the vaccination last?",
+    "answer": "The protection lasts for one year. Re-immunization should be done annually."
+  },
+  {
+    "question": "How long after vaccination does it take for the antibodies against the “flu” to be produced?",
+    "answer": "It takes up to two (2) weeks after vaccination for antibodies that protect against flu to develop in the body."
+  },
+  {
+    "question": "Who should NOT receive the vaccine?",
+    "answer": "<ul><li>Children who are younger than 6 mos of age</li><li>Individuals who experienced severe, life threatening allergic reactions to any ingredient of a flu vaccine (Might include gelatin, antibiotics, or other ingredients)</li><li>Individuals who previously manifested a severe allergic reaction to a dose of influenza vaccine and might not be able to receive other flu vaccines</li></ul>"
+  },
+  {
+    "question": "What are the possible side effects of the vaccine?",
+    "answer": "The most common side effect is soreness at the injection site. Some of the less common side effects are pain, low-grade fever, myalgia, headache, and fatigue."
+  },
+  {
+    "question": "Can you get influenza from the vaccine?",
+    "answer": "You cannot get the flu from being vaccinated with the flu vaccine. The vaccines administered are composed of either inactivated (killed) viruses, or with a single protein component of the influenza virus."
+  }
+]

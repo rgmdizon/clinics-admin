@@ -1,0 +1,30 @@
+[
+  {
+    "category": "general",
+    "description": "Representatives need to provide each vaccinee’s last name, first name, and at least one method to contact them (preferably both email and mobile number)."
+  },
+  {
+    "category": "general",
+    "description": "Individual details are required for the vaccinees to be able to register and book their own schedule."
+  },
+  {
+    "category": "payment",
+    "description": "Payment Summary will be sent to the Representative over email after completing each submission. Representative needs to process the payment and reply to the email with the proof of payment to complete the enrollment process."
+  },
+  {
+    "category": "payment",
+    "description": "To prevent issues with the payment validation, please make sure that each proof of payment corresponds to only one submission. All payments made to MedGrocer are non-refundable."
+  },
+  {
+    "category": "payment",
+    "description": "Representative should receive payment confirmation within 1-2 business days after sending the proof of payment."
+  },
+  {
+    "category": "payment",
+    "description": "Booking invitations to the vaccinees after payment confirmation."
+  },
+  {
+    "category": "update",
+    "description": "MedGrocer will update you on your vaccinees’ booking statuses. In cases where the vaccinee cannot be reached, MedGrocer will be sending you instructions on how to edit the vaccinee contact details."
+  }
+]
