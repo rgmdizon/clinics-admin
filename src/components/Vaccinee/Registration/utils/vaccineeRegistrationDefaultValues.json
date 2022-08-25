@@ -1,9 +1,0 @@
-{
-  "pwd": { "booleanValue": false },
-  "tags": { "arrayValue": { "values": [{ "stringValue": "YEO-220115" }] } },
-  "indigenousMember": { "booleanValue": false },
-  "guardianName": { "stringValue": "" },
-  "deferral": { "booleanValue": false },
-  "adverseEvent": { "booleanValue": false },
-  "adverseCondition": { "booleanValue": false }
-}

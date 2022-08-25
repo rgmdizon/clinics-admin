@@ -5,27 +5,17 @@ const { createAuthPages } = require("./src/services/nodes/createAuthPages")
 const {
   createOrganizationPages,
 } = require("./src/services/nodes/createOrganizationPages")
-const {
-  createVaxCertPages,
-} = require("./src/services/nodes/createVaxCertPages")
+
 const {
   createBookingPages,
 } = require("./src/services/nodes/createBookingPages")
 const {
   createSummaryPages,
 } = require("./src/services/nodes/createSummaryPages")
-const {
-  createVaccineesPages,
-} = require("./src/services/nodes/createVaccineesPages")
-const {
-  createScreeningPages,
-} = require("./src/services/nodes/createScreeningPages")
+
 const {
   createRegistrationVerificationPages,
 } = require("./src/services/nodes/createRegistrationVerificationPages")
-const {
-  createRegistrationPages,
-} = require("./src/services/nodes/createRegistrationPages")
 
 exports.onCreatePage = async ({ page, actions }) => {
   const { createPage } = actions
@@ -44,13 +34,9 @@ exports.createPages = async ({ actions, graphql }) => {
     createAuthPages(createPage, graphql),
     createSummaryPages(createPage, graphql),
     createBookingPages(createPage, graphql),
-    createVaxCertPages(createPage, graphql),
     createCompletePages(createPage, graphql),
-    createVaccineesPages(createPage, graphql),
     createOrganizationPages(createPage, graphql),
-    createScreeningPages(createPage, graphql),
     createRegistrationVerificationPages(createPage, graphql),
-    createRegistrationPages(createPage, graphql),
   ])
 }
 
